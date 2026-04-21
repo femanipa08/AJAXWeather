@@ -8,7 +8,6 @@ Zeigt Wetterdaten (Temperatur, Wetterlage, Wetterwarnungen) aus lokalen JSON-Dat
 
 ## Technologien
 
-- Vanilla JavaScript (ES Modules)
 - HTML / CSS
 - Chart.js (Temperaturdiagramm)
 - Fetch API (JSON-Datenabruf)
