@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 3.Versuch zum integrieren: -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script type ="module" src="app.js"></script>
+    <link rel="stylesheet" href="./style/styleWeather.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Weather calculator</h1>
+    <div id ="head">
+        <input id="inDateToday" readonly value>
+        <div id ="btnGroup">
+            <button id="btnToday">Heute</button>
+            <button id="btnThreeDays">3 Tage</button>
+            <button id="btnSevenDays">7 Tage</button>
+        </div>
+        <div id="divShowWeather"></div>
+    </div>
+    <p>Informationen: Wettergrafiken von: 
+        <a href="http://www.freepik.com">Designed by Bamdewanto / Freepik</a>
+    </p>
+    <div id="chartContainer">
+        <canvas id ="weatherChart"></canvas>
+    </div>
+</body>
+</html>

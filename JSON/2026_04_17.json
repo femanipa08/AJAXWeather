@@ -1,0 +1,10 @@
+{
+    "Wetterdaten":[
+                {
+            "Temperatur minimum": 5,
+            "Temperatur maximum": 15,
+            "Wetterlage": "sonnig",
+            "Wetterwarnung": "keine"
+        }
+    ]
+}
